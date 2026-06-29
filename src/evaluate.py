@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 from sklearn.metrics import accuracy_score
-model = joblib.load("models/model.pkl")
+model = joblib.load("model/model.pkl")
 X_test = np.array([
     [25, 500, 12],
     [40, 1500, 3],
